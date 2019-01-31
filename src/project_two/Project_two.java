@@ -98,9 +98,6 @@ public class Project_two {
                 }
             }
             System.out.println();
-            if (i == 5) {
-                break;
-            }
         }
     }
 
@@ -135,7 +132,6 @@ public class Project_two {
                 result[i][j] = sum;
                 sum = 0;
             }
-            
         }
         return result;
     }
